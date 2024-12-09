@@ -8,7 +8,14 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        bannerImage: "url('/hero2.png')",
+      },
+      fontFamily: {
+        myFont: ["Poppins", "sans-serif"],
+      },
       colors: {
+        // navColor : "#fbebb5",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
