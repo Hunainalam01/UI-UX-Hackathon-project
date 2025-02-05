@@ -5,6 +5,8 @@ import Item from "./compunents/Item";
 import Sofa from "./compunents/Sofa";
 import TopPick from "./compunents/Top-pick";
 import OurBlog from "./compunents/Our-blog";
+import OurInsta from "./compunents/Our-insta";
+import CheckOut from "./checkout/page";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <TopPick />
       <Sofa />
       <OurBlog />
+      <OurInsta />
+      <CheckOut />
     </div>
   );
 }
